@@ -1,19 +1,3 @@
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-
 var rpc = require("discord-rpc")
 const client = new rpc.Client({ transport: 'ipc' })
 
@@ -22,27 +6,11 @@ client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
 assets : {
-large_image : "atk",
-large_text : "minfay.png"
+large_image : "image name",
+large_text : "large text"
 },
-buttons : [{label: "Mon Twitter", url: "https://www.twitter.com/mxnfxy1"}, {label: "Discord Prélude", url: "https://discord.gg/F65vCxypdp"}]
+buttons : [{label: "Button name 1", url: "Url 1"}, {label: "Button name 2", url: "Url 2"}]
 }
 })
 })
-client.login({ clientId : "807972318047109150" }).catch(console.error);
-
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
-// DiscordRichPresence developed by Minfay \\
+client.login({ clientId : "" }).catch(console.error);
